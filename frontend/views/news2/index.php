@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'DescriptionNews',
             'ContentsNews',
             'DateNews',
-            // 'Author',
+            'Author',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
