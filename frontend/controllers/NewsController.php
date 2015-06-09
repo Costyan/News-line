@@ -12,6 +12,14 @@ class NewsController extends Controller
         $query= News::find()->all();
         return $this->render('index', ['news' => $query]);
     }
+    public function actionViewNews($idNews)
+    {
+        $query= News::find();
+        $viewNews=$query
+                ->where(['IdNews'=>$idNews])
+                ->one();
+        return $this->render('viewNews', ['viewNews' => $viewNews]);
+    }
             
 }
 
