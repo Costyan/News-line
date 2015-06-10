@@ -3,6 +3,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 
 $this->title = 'News';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <center><h1>News</h1></center>
 <?php foreach ($news as $myNews):

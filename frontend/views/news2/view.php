@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\News2 */
 
 $this->title = $model->IdNews;
-$this->params['breadcrumbs'][] = ['label' => 'News2s', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'News', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="news2-view">
